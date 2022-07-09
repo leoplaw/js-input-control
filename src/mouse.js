@@ -103,7 +103,7 @@ class MouseAgent {
       }
     });
   
-    element.addEventListener("mousewheel", (e) => {
+    element.addEventListener("wheel", (e) => {
       this.wheeldelta = e.wheelDelta;
 
       const arg = this.createEventArgument(e);
